@@ -197,3 +197,32 @@ ul li span:hover{
     margin-top: 20px;
 }
 
+@media screen and (max-width: 480px) {
+    .row {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    input {
+        width: 100%;
+        font-size: 16px;
+        padding: 12px;
+        margin-bottom: 10px;
+    }
+
+    button {
+        width: 100%;
+        max-width: none;
+        font-size: 16px;
+        padding: 14px;
+    }
+
+    .progress-title {
+        font-size: 16px;
+    }
+
+    .progress-container {
+        height: 8px;
+    }
+}
+
